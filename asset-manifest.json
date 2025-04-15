@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/testovoeTodolist/static/css/main.f855e6bc.css",
-    "main.js": "/testovoeTodolist/static/js/main.3b260db3.js",
+    "main.js": "/testovoeTodolist/static/js/main.66cfff06.js",
     "static/js/453.b6e8ef81.chunk.js": "/testovoeTodolist/static/js/453.b6e8ef81.chunk.js",
     "static/media/workIcon.svg": "/testovoeTodolist/static/media/workIcon.943ff508d8c576a1909ceed4e8056d49.svg",
     "static/media/iconDelete.svg": "/testovoeTodolist/static/media/iconDelete.109286835ac89a16e53baba8148465d5.svg",
     "static/media/vector.svg": "/testovoeTodolist/static/media/vector.27ba0d81097043575375f133bd0f712d.svg",
     "static/media/statusIcon.svg": "/testovoeTodolist/static/media/statusIcon.42824e20a1a3166b95602600234f9351.svg",
     "index.html": "/testovoeTodolist/index.html",
+    "static/media/plus.svg": "/testovoeTodolist/static/media/plus.e30a0b6877da0acf2728f5abce8f08be.svg",
     "main.f855e6bc.css.map": "/testovoeTodolist/static/css/main.f855e6bc.css.map",
-    "main.3b260db3.js.map": "/testovoeTodolist/static/js/main.3b260db3.js.map",
+    "main.66cfff06.js.map": "/testovoeTodolist/static/js/main.66cfff06.js.map",
     "453.b6e8ef81.chunk.js.map": "/testovoeTodolist/static/js/453.b6e8ef81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3b260db3.js"
+    "static/js/main.66cfff06.js"
   ]
 }
