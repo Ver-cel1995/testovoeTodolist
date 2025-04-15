@@ -2,25 +2,11 @@
   "extends": [
     "react-app",
     "react-app/jest",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
-    "prettier/prettier": ["error", {
-      "endOfLine": "auto",
-      "singleQuote": true,
-      "trailingComma": "all"
-    }]
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    "prettier/prettier": "warn"
   }
 }
