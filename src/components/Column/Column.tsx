@@ -6,6 +6,7 @@ import {addTask} from "../../features/task/taskSlice";
 import {useDispatch} from "react-redux";
 import icon from '../../assets/vector.svg'
 import workIcon from '../../assets/workIcon.svg'
+import plus from '../../assets/plus.svg'
 
 type ColumnProps = {
     title: string;
@@ -46,7 +47,7 @@ const Column = ({ status, tasks, background, statuses }: ColumnProps) => {
                         <TaskCard key={task.taskName} task={task} id={task.taskName} statuses={statuses} status={status} background={background}/>
                     ))}
                 </TaskCardsWindow>
-                <AddTaskButton onClick={handleAddTask}>Новая задача</AddTaskButton>
+                    <AddTaskButton onClick={handleAddTask}>Новая задача</AddTaskButton>
             </ColumnBody>
         </ColumnWrapper>
     );
@@ -56,7 +57,7 @@ export default Column;
 
 const ColumnWrapper = styled.div`
     border-radius: 8px;
-    min-width: 280px;
+    width: 400px;
 `;
 
 const ColumnBody = styled.div<{background: string}>`
@@ -74,8 +75,7 @@ const TaskCardsWindow = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
-
-    /* Стилизация скроллбара */
+    
     &::-webkit-scrollbar {
         width: 6px;
     }
@@ -113,8 +113,18 @@ const AddTaskButton = styled.button`
     border-radius: 12px;
     padding: 12px 24px;
     width: 100%;
+    position: relative;
 
     &:hover {
         background: #e1e4e8;
+    }
+    
+    &::before {
+        position: absolute;
+        content: '';
+        width: 14px;
+        height: 14px;
+        left: 120px;
+        background-image: url(${plus});
     }
 `;

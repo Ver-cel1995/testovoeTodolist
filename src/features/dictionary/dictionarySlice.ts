@@ -39,7 +39,6 @@ const dictionarySlice = createSlice({
     }
 });
 
-// Селекторы
 export const selectStatuses = (state: { dictionary: DictionaryState }) => state.dictionary.statuses;
 export const selectPriorities = (state: { dictionary: DictionaryState }) => state.dictionary.priorities;
 export const selectAssignees = (state: { dictionary: DictionaryState }) => state.dictionary.assignees
